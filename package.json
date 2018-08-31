@@ -1,5 +1,5 @@
 {
-  "name": "vtranslit-iast-scheme",
+  "name": "vtranslit-scheme-iast",
   "version": "0.1.0",
   "description": "IAST scheme for vTranslit.",
   "keywords": [
@@ -8,9 +8,9 @@
     "vtranslit",
     "indic scripts"
   ],
-  "main": "dist/vtranslit-iast-scheme.npm.js",
+  "main": "dist/vtranslit-scheme-iast.npm.js",
   "files": [
-    "dist/vtranslit-iast-scheme.npm.js"
+    "dist/vtranslit-scheme-iast.npm.js"
   ],
   "scripts": {
     "build": "rimraf dist && webpack",
@@ -33,10 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vipranarayan14/vtranslit-iast-scheme.git"
+    "url": "git+https://github.com/vipranarayan14/vtranslit-scheme-iast.git"
   },
   "bugs": {
-    "url": "https://github.com/vipranarayan14/vtranslit-iast-scheme/issues"
+    "url": "https://github.com/vipranarayan14/vtranslit-scheme-iast/issues"
   },
-  "homepage": "https://github.com/vipranarayan14/vtranslit-iast-scheme#readme"
+  "homepage": "https://github.com/vipranarayan14/vtranslit-scheme-iast#readme"
 }

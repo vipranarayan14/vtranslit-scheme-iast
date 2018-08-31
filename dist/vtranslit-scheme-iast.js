@@ -1,4 +1,4 @@
-window["vTranslitIastScheme"] =
+window["vTranslitSchemeIast"] =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -74,7 +74,7 @@ window["vTranslitIastScheme"] =
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var vTranslitIastScheme = exports.vTranslitIastScheme = {
+var vTranslitSchemeIast = exports.vTranslitSchemeIast = {
   'about': {
     'code': 'Iast',
     'name': 'IAST',
@@ -92,4 +92,4 @@ var vTranslitIastScheme = exports.vTranslitIastScheme = {
 };
 
 /***/ })
-/******/ ])["vTranslitIastScheme"];
+/******/ ])["vTranslitSchemeIast"];

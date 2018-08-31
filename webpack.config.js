@@ -2,8 +2,8 @@ const path = require('path');
 
 const entry = './src/index.js';
 
-const filename = 'vtranslit-iast-scheme';
-const libraryName = 'vTranslitIastScheme';
+const filename = 'vtranslit-scheme-iast';
+const libraryName = 'vTranslitSchemeIast';
 
 const baseConfig = {
   entry,

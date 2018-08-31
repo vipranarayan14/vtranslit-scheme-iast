@@ -1,26 +1,26 @@
-# vTranslit-Iast-scheme
+# vTranslit-scheme-Iast
 
 IAST scheme for vTranslit.
 
 ## Installation
 
 ```bash
-npm install vtranslit-iast-scheme
+npm install vtranslit-scheme-iast
 ```
 
 ## Node usage
 
 ```js
-const vTranslitIastScheme = require('vtranslit-iast-scheme');
+const vTranslitSchemeIast = require('vtranslit-scheme-iast');
 ```
 
 ## Browser usage
 
 ```html
-<script src="path/to/vtranslit-iast-scheme.js"></script>
+<script src="path/to/vtranslit-scheme-iast.js"></script>
 ```
 
 ```js
-const vTranslitIastScheme = window.vTranslitIastScheme;
+const vTranslitSchemeIast = window.vTranslitSchemeIast;
 ```
 

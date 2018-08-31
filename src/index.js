@@ -1,4 +1,4 @@
-export const vTranslitIastScheme = {
+export const vTranslitSchemeIast = {
   'about': {
     'code': 'Iast',
     'name': 'IAST',

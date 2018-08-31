@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["vTranslitIastScheme"] = factory();
+		exports["vTranslitSchemeIast"] = factory();
 	else
-		root["vTranslitIastScheme"] = factory();
+		root["vTranslitSchemeIast"] = factory();
 })(typeof self !== 'undefined' ? self : this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -83,7 +83,7 @@ return /******/ (function(modules) { // webpackBootstrap
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var vTranslitIastScheme = exports.vTranslitIastScheme = {
+var vTranslitSchemeIast = exports.vTranslitSchemeIast = {
   'about': {
     'code': 'Iast',
     'name': 'IAST',
@@ -101,5 +101,5 @@ var vTranslitIastScheme = exports.vTranslitIastScheme = {
 };
 
 /***/ })
-/******/ ])["vTranslitIastScheme"];
+/******/ ])["vTranslitSchemeIast"];
 });
