@@ -101,5 +101,5 @@ var vTranslitSchemeIast = exports.vTranslitSchemeIast = {
 };
 
 /***/ })
-/******/ ])["vTranslitSchemeIast"];
+/******/ ]);
 });

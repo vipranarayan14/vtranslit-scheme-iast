@@ -38,7 +38,6 @@ const npmConfig = Object.assign({}, baseConfig, {
   output: {
     filename: `${filename}.npm.js`,
     library: libraryName,
-    libraryExport: libraryName,
     libraryTarget: 'umd',
     path: path.join(__dirname, 'dist')
   }
