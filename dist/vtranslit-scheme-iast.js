@@ -75,19 +75,19 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var vTranslitSchemeIast = exports.vTranslitSchemeIast = {
-  'about': {
-    'code': 'Iast',
-    'name': 'IAST',
-    'type': 'roman',
-    'unicodeBlock': '0020-007F'
+  about: {
+    code: 'Iast',
+    name: 'IAST',
+    type: 'roman',
+    unicodeBlock: '1E00—1EFF' //Latin Extended Additional //Include: Basic Latin
   },
-  'data': {
-    'ayogavaha': ['ṁ', 'ḥ'],
-    'consonants': ['ka', 'kha', 'ga', 'gha', 'ṅa', 'ca', 'cha', 'ja', 'jha', 'ña', 'ṭa', 'ṭha', 'ḍa', 'ḍha', 'ṇa', 'ta', 'tha', 'da', 'dha', 'na', 'ṉa', 'pa', 'pha', 'ba', 'bha', 'ma', 'ya', 'ra', 'ṟa', 'la', 'ḷa', 'ḻa', 'va', 'śa', 'ṣa', 'sa', 'ha'],
-    'deadConsonants': ['k', 'kh', 'g', 'gh', '\x1E45', 'c', 'ch', 'j', 'jh', '\xF1', '\x1E6D', '\x1E6Dh', '\x1E0D', '\x1E0Dh', '\x1E47', 't', 'th', 'd', 'dh', 'n', '\x1E49', 'p', 'ph', 'b', 'bh', 'm', 'y', 'r', '\x1E5F', 'l', '\x1E37', '\x1E3B', 'v', '\x15B', '\x1E63', 's', 'h'],
-    'symbols': ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '|', '||', ['o\u1E43', 'O\u1E43'], '\'', 'm,\u0310'],
-    'vowelMarks': ['\u0101', 'i', '\u012B', 'u', '\u016B', '\u01E5B', '\u01E5D', '\u01E37', '\u01E39', 'e', 'ai', 'o', 'au'],
-    'vowels': [['\u0101', '\u0100'], ['i', 'I'], ['\u012B', '\u012A'], ['u', 'U'], ['\u016B', '\u016A'], ['\u01E5B', '\u01E5A'], ['\u01E5D', '\u01E5C'], ['\u01E37', '\u01E36'], ['\u01E39', '\u01E38'], ['e', 'E'], ['ai', 'Ai'], ['o', 'O'], ['au', 'Au']]
+  data: {
+    ayogavaha: [['ṁ', 'Ṃ'], ['ḥ', 'Ḥ']],
+    consonants: [['ka', 'Ka'], ['kha', 'Kha'], ['ga', 'Ga'], ['gha', 'Gha'], ['ṅa', 'Ṅa'], ['ca', 'Ca'], ['cha', 'Cha'], ['ja', 'Ja'], ['jha', 'Jha'], ['ña', 'Ña'], ['ṭa', 'Ṭa'], ['ṭha', 'Ṭha'], ['ḍa', 'Ḍa'], ['ḍha', 'Ḍha'], ['ṇa', 'Ṇa'], ['ta', 'Ta'], ['tha', 'Tha'], ['da', 'Da'], ['dha', 'Dha'], ['na', 'Na'], ['ṉa', 'Ṉa'], ['pa', 'Pa'], ['pha', 'Pha'], ['ba', 'Ba'], ['bha', 'Bha'], ['ma', 'Ma'], ['ya', 'Ya'], ['ra', 'Ra'], ['ṟa', 'Ṟa'], ['la', 'La'], ['ḷa', 'Ḷa'], ['ḻa', 'Ḻa'], ['va', 'Va'], ['śa', 'Śa'], ['ṣa', 'Ṣa'], ['sa', 'Sa'], ['ha', 'Ha']],
+    deadConsonants: [['k', 'K'], ['kh', 'Kh'], ['g', 'G'], ['gh', 'Gh'], ['ṅ', 'Ṅ'], ['c', 'C'], ['ch', 'Ch'], ['j', 'J'], ['jh', 'Jh'], ['ñ', 'Ñ'], ['ṭ', 'Ṭ'], ['ṭh', 'Ṭh'], ['ḍ', 'Ḍ'], ['ḍh', 'Ḍh'], ['ṇ', 'Ṇ'], ['t', 'T'], ['th', 'Th'], ['d', 'D'], ['dh', 'Dh'], ['n', 'N'], ['ṉ', 'Ṉ'], ['p', 'P'], ['ph', 'Ph'], ['b', 'B'], ['bh', 'Bh'], ['m', 'M'], ['y', 'Y'], ['r', 'R'], ['ṟ', 'Ṟ'], ['l', 'L'], ['ḷ', 'Ḷ'], ['ḻ', 'Ḻ'], ['v', 'V'], ['ś', 'Ś'], ['ṣ', 'Ṣ'], ['s', 'S'], ['h', 'H']],
+    symbols: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '|', '||', ['o\u1E43', 'O\u1E43'], '\'', ['m\u0310', 'M\u0310']],
+    vowelMarks: ['a', ['\u0101', '\u0100'], ['i', 'I'], ['\u012B', '\u012A'], ['u', 'U'], ['\u016B', '\u016A'], ['\u1E5B', '\u1E5A'], ['\u1E5D', '\u1E5C'], ['\u1E37', '\u1E36'], ['\u1E39', '\u1E38'], '', ['e', 'E'], ['ai', 'Ai'], '', ['o', 'O'], ['au', 'Au']],
+    vowels: ['a', ['\u0101', '\u0100'], ['i', 'I'], ['\u012B', '\u012A'], ['u', 'U'], ['\u016B', '\u016A'], ['\u1E5B', '\u1E5A'], ['\u1E5D', '\u1E5C'], ['\u1E37', '\u1E36'], ['\u1E39', '\u1E38'], '', ['e', 'E'], ['ai', 'Ai'], '', ['o', 'O'], ['au', 'Au']]
   }
 };
 
