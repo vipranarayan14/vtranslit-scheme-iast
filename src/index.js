@@ -6,7 +6,7 @@ export const vTranslitSchemeIast = {
     unicodeBlock: '1E00—1EFF' //Latin Extended Additional //Include: Basic Latin
   },
   data: {
-    ayogavaha: [['ṁ', 'Ṃ'], ['ḥ', 'Ḥ']],
+    ayogavaha: [['ṃ', 'Ṃ'], ['ḥ', 'Ḥ']],
     consonants: [
       ['ka', 'Ka'],
       ['kha', 'Kha'],
