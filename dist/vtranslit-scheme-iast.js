@@ -82,7 +82,7 @@ var vTranslitSchemeIast = exports.vTranslitSchemeIast = {
     unicodeBlock: '1E00—1EFF' //Latin Extended Additional //Include: Basic Latin
   },
   data: {
-    ayogavaha: [['ṁ', 'Ṃ'], ['ḥ', 'Ḥ']],
+    ayogavaha: [['ṃ', 'Ṃ'], ['ḥ', 'Ḥ']],
     consonants: [['ka', 'Ka'], ['kha', 'Kha'], ['ga', 'Ga'], ['gha', 'Gha'], ['ṅa', 'Ṅa'], ['ca', 'Ca'], ['cha', 'Cha'], ['ja', 'Ja'], ['jha', 'Jha'], ['ña', 'Ña'], ['ṭa', 'Ṭa'], ['ṭha', 'Ṭha'], ['ḍa', 'Ḍa'], ['ḍha', 'Ḍha'], ['ṇa', 'Ṇa'], ['ta', 'Ta'], ['tha', 'Tha'], ['da', 'Da'], ['dha', 'Dha'], ['na', 'Na'], ['ṉa', 'Ṉa'], ['pa', 'Pa'], ['pha', 'Pha'], ['ba', 'Ba'], ['bha', 'Bha'], ['ma', 'Ma'], ['ya', 'Ya'], ['ra', 'Ra'], ['ṟa', 'Ṟa'], ['la', 'La'], ['ḷa', 'Ḷa'], ['ḻa', 'Ḻa'], ['va', 'Va'], ['śa', 'Śa'], ['ṣa', 'Ṣa'], ['sa', 'Sa'], ['ha', 'Ha']],
     deadConsonants: [['k', 'K'], ['kh', 'Kh'], ['g', 'G'], ['gh', 'Gh'], ['ṅ', 'Ṅ'], ['c', 'C'], ['ch', 'Ch'], ['j', 'J'], ['jh', 'Jh'], ['ñ', 'Ñ'], ['ṭ', 'Ṭ'], ['ṭh', 'Ṭh'], ['ḍ', 'Ḍ'], ['ḍh', 'Ḍh'], ['ṇ', 'Ṇ'], ['t', 'T'], ['th', 'Th'], ['d', 'D'], ['dh', 'Dh'], ['n', 'N'], ['ṉ', 'Ṉ'], ['p', 'P'], ['ph', 'Ph'], ['b', 'B'], ['bh', 'Bh'], ['m', 'M'], ['y', 'Y'], ['r', 'R'], ['ṟ', 'Ṟ'], ['l', 'L'], ['ḷ', 'Ḷ'], ['ḻ', 'Ḻ'], ['v', 'V'], ['ś', 'Ś'], ['ṣ', 'Ṣ'], ['s', 'S'], ['h', 'H']],
     symbols: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '|', '||', ['o\u1E43', 'O\u1E43'], '\'', ['m\u0310', 'M\u0310']],
